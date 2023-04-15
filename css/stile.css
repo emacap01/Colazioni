@@ -1,13 +1,15 @@
+@font-face {
+    font-family:'IBMPlexSerif';
+    src: url(../font/IBMPlexSerif-Regular.ttf);
+}
 body{
     color:#403225;
-    font-family:'Serif';
-    src: url('font/IBMPlexSerif-Regular.ttf');
-    src: url('font/IBMPlexSerif-Bold.ttf');
-    src:url('font/IBMPlexSerif-Italic.ttf');
+    font-family:'IBMPlexSerif';
     font-weight: normal;  
     background-color:#E6E8E7;
     margin:0;
 }
+
  main,footer{
     max-width: fit-content;
     margin:auto;
@@ -31,12 +33,24 @@ header nav ul {
 main section.intr h1{
     text-align: center;
 
-    
 }
 
 div.imm{
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.op{
+    opacity: 0.8;
+}
+#sx{
+    margin-right:-50px ;
+}
+#dx{
+    margin-left:-50px;
+}
+#top{
+    z-index: 2;
 }
 .testo{
     width: 50%;
@@ -71,11 +85,6 @@ main section.card p{
    position: relative;
   margin-right: 5%;
    
-}
-div.asia{
-    display: flex;
-    justify-content:space-between;
-    
 }
 
 .fotodx{
